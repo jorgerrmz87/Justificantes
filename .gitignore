@@ -1,0 +1,8 @@
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+/.gradle/
+/out/
+*.class
