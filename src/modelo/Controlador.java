@@ -20,7 +20,8 @@ public class Controlador {
 
     justificantes.get(0).aprobar();   // Aprobado
     justificantes.get(1).rechazar();  // Rechazado
-    // El tercero queda pendiente
+    justificantes.get(2).aprobar();  // está línea hace un llamado a una lista de justificantes con una numeración y con este simple comando le damos un estado al justificante 
+
 }
 
     public Usuario validarUsuario(String username, String password) {
